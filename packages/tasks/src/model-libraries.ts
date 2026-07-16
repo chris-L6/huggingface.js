@@ -221,6 +221,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/cartesia-ai/cartesia_mlx",
 		snippets: snippets.cartesia_mlx,
 	},
+	ccpfn: {
+		prettyLabel: "CCPFN",
+		repoName: "CCPFN",
+		repoUrl: "https://github.com/layer6ai-labs/CCPFN-inference",
+		filter: false,
+		countDownloads: `path_extension:"pt" OR path_extension:"safetensors"`,
+	},
 	champ: {
 		prettyLabel: "Champ",
 		repoName: "Champ",
